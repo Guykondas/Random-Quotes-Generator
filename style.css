@@ -1,0 +1,10 @@
+:root {
+  --main-color: #fff;
+	--background: #C05740;
+	}
+#btn button {
+  color: var(--main-color);
+}
+#inner-container{
+	background-color: var(--background)
+}

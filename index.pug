@@ -1,0 +1,51 @@
+doctype html
+html(lang="en")
+head
+	title Quote of the Day
+	body
+	.container
+		#inner-container
+			p(style='text-align:center; color:#fff') Welcome to my Random Quote 
+			p#showQuotes Life isn’t about getting and having, it’s about giving and being. -- Kevin Kruse
+		#btn
+				br
+				p
+				button(onclick='preFunc()').btn.btn-primary.prev P r e v																				
+				br
+				p
+				br
+				p
+				| 
+				
+				button(onclick='quotesFunc()').btn.btn-primary N e x t
+				
+					
+	style.
+		
+		#inner-container{
+		height:250px;
+		border-radius:30px;
+		margin:10px;
+		}
+		#inner-container p{
+		margin:50px;
+		}
+		#btn{
+		background-color:white;
+		
+		}
+		#btn button{
+		margin-top:-350px;
+		margin-bottom:10px;
+		box-shadow:2px 3px 0px;
+	
+		}
+		#showQuotes{
+		font-size:25px;
+		text-align:center;
+		margin:10px;
+		}
+		.prev{
+		margin-bottom:20px;
+		}
+	
